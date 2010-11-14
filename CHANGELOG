@@ -1,3 +1,10 @@
+2010-11-14 Pete Prodoehl <pete@rasterweb.net>
+
+* Changed _htaccess to .htaccess as advised by mathiasx
+
+
+Updated to include the table-tracks.sql I forgot.
+
 
 2010-11-14 Pete Prodoehl <pete@rasterweb.net>
 

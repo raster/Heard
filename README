@@ -31,7 +31,7 @@ tracks.php - This is the public display, if you want to change how the output lo
 
 table-tracks.sql - This is the file used to set up the MySQL database.
 
-_htaccess - Rename to .htaccess and edit as needed. Alternately edit tracks.php to work without it.
+.htaccess - Edit as needed. Alternately edit tracks.php to work without it.
 
 heardsync.php - This is the script that runs to pull the data from Last.fm and load it into MySQL. I run it from cron twice per day. It's inefficient, and could be much smarter.
 
