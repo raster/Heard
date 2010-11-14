@@ -1,0 +1,38 @@
+
+Heard is a Last.fm mirror.
+
+It uses the Last.fm API to pull your data into a database on your own server and then display it.
+
+For more info, see the blog post here:
+
+  http://rasterweb.net/raster/2010/07/22/heard-a-last-fm-mirror/
+
+You can see it in action here:
+
+  http://rasterweb.net/heard/
+
+
+Heard is released under the GPL. If you want another license, let me know.
+
+
+Pete Prodoehl
+pete@rasterweb.net
+http://rasterweb.net/raster/
+Twitter: @raster
+
+
+OK, here's a brief rundown of the files.
+
+config.php - You'll need to enter your database info here.
+
+init.php - Functions are here.
+
+tracks.php - This is the public display, if you want to change how the output looks, mess with this file. Also note, there are some hardcoded links in here that need changing, and you will need jQuery.
+
+_htaccess - Rename to .htaccess and edit as needed. Alternately edit tracks.php to work without it.
+
+heardsync.php - This is the script that runs to pull the data from Last.fm and load it into MySQL. I run it from cron twice per day. It's inefficient, and could be much smarter.
+
+Disclaimer: This code is not elegant, but it works for me. I'm a terrible software developer, but a decent hacker... at least I like to think so. If you can improve it, please do, and let me know.
+
+
