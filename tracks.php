@@ -130,7 +130,7 @@ if ($pagenumprev < 1) {
 <h1><a href="./">Heard</a></h1>
 
 <?php /* you may want to change this so it points to your own account */ ?>
-<h2><a href="http://www.last.fm/user/rasterweb">visit rasterweb on Last.fm</a></h2>
+<h2><a href="http://www.last.fm/user/<?php echo LASTFM_USER ?>">visit <?php echo LASTFM_USER ?>on Last.fm</a></h2>
 
 <p style="float: left; clear: both">
 <?php echo $thecount ?> tracks scrobbled.
