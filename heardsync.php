@@ -23,7 +23,7 @@ $newtracks	= 0;
 // for now, we'll just run this 2 times per day, so if you listen to more than 200 songs in 12 hours, we will miss some...
 // at one point I knew the right way to do it but I didn't implement it, so feel free to figure it out...
 
-$from_xml_source = 'http://ws.audioscrobbler.com/2.0/?method=user.getRecentTracks&api_key='.API_KEY.'user='.LASTFM_USER.'&limit=100&page=1';
+$from_xml_source = 'http://ws.audioscrobbler.com/2.0/?method=user.getRecentTracks&api_key='.API_KEY.'&user='.LASTFM_USER.'&limit=100&page=1';
 
 
 $from_remote_fp = fopen($from_xml_source, "rb");
