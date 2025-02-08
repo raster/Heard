@@ -1,16 +1,12 @@
-2010-11-14 Pete Prodoehl <pete@rasterweb.net>
-
-* Changed _htaccess to .htaccess as advised by mathiasx
-
-
-Updated to include the table-tracks.sql I forgot.
-
+2025-02-08 Pete Prodoehl <pete@rasterweb.net>
+  * Removed Twitter username because fuck those Nazis.
 
 2010-11-14 Pete Prodoehl <pete@rasterweb.net>
+  * Changed _htaccess to .htaccess as advised by mathiasx
+  * Updated to include the table-tracks.sql I forgot.
 
-* Updated to include the table-tracks.sql I forgot.
-
+2010-11-14 Pete Prodoehl <pete@rasterweb.net>
+  * Updated to include the table-tracks.sql I forgot.
 
 2010-11-13 Pete Prodoehl <pete@rasterweb.net>
-
-* Initial release
+  * Initial release
