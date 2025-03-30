@@ -17,8 +17,11 @@ define('DB_USER', "YOUR_DATABASE_USERNAME");
 define('DB_PASS', "YOUR_DATABASE_PASSWORD");
 
 // DB table names
-
 define('DB_TABLE', "tracks");
+
+//your last.fm info
+define('API_KEY', "YOUR_LASTFM_API_KEY");
+define('LASTFM_USER', "YOUR_LASTFM_USER");
 
 ?>
 
