@@ -1,10 +1,1 @@
 
-DirectoryIndex tracks.php
-
-# remove trailing slash
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_URI} !(.*)$
-RewriteRule ^(.*)$ http://rasterweb.net/heard/$1 [R=301,L]
-
-# remove php extension
-RewriteRule ^(.*)/$ /$1.php [L]
